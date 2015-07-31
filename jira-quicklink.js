@@ -1,5 +1,5 @@
 javascript: (function () {
-    var url = "https://jira.DOMAIN.TLD"
+    var url = "https://jira.DOMAIN.TLD";
     var jiraID = "";
 
     if (window.getSelection) {
@@ -13,7 +13,7 @@ javascript: (function () {
     }
 
     if (jiraID) {
-        var url = "";
+        var openUrl = "";
         var w;
 
         if (jiraID.indexOf("jira://") > -1) {
